@@ -1,0 +1,57 @@
+/* General Body Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9;
+}
+
+/* Login and Register Sections */
+.login-section, .register-section {
+    height: 100vh;
+    background: url('https://img.freepik.com/premium-photo/christian-cross-marble-texture-white-plain-empty-copy-space-background_741309-706.jpg?w=1800') no-repeat center center/cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.login-section .overlay, .register-section .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6); /* Dark overlay for contrast */
+    z-index: 1;
+}
+
+/* Login and Register Boxes */
+.login-box, .register-box {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 2;
+}
+
+.login-box h2, .register-box h2 {
+    color: #333;
+    font-weight: 600;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form .btn {
+    padding: 10px;
+    font-size: 16px;
+}
+
+form p a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+form p a:hover {
+    text-decoration: underline;
+}
